@@ -16,18 +16,7 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   
-<distributionManagement>
-  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.127.156.81:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://43.205.142.66:8081/repository/maven-snapshots/</url>
-   </snapshotRepository>
-</distributionManagement>
+
 
   <dependencies>
     <dependency>
