@@ -16,10 +16,7 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   
-
-
-  <dependencies>
-    <distributionManagement>
+ <distributionManagement>
    <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
@@ -36,6 +33,9 @@
 
 
 </distributionManagement>
+
+  <dependencies>
+   
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
